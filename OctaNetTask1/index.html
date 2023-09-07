@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <input type="checkbox" id="check" style="display: none;">
+    <div class="slideBar-nav">
+        <label for="check" id="hamburger"><i class="fa-solid fa-bars"></i></label>
+    </div>
+
+    <div class="slideBar">
+        <label for="check"> <i class="fa-solid fa-xmark"></i></label>
+        <img src="./img/profile.webp" id="slidelogo" alt="" width="50" height="50">
+        <h3>Home</h3>
+        <h3>Support</h3>
+        <h3>Travelers</h3>
+        <h3>Languages</h3>
+    </div>
+
+
+    <!-- navbar area  -->
+    <div class="main-container">
+        <div class="navBar">
+            <div class="logo-area">
+                <div class="logo-image">
+                    <img src="./img/logo.png" alt="">
+                    <h3>travelGuru</h3>
+                </div>
+                <div class="travelers">
+                    <h3 class="notclicked">Travelers </h3>
+                </div>
+            </div>
+
+            <div class="profile-area">
+                <h3 class="clicked notclicked">Home</h3>
+                <h3 class="notclicked">Support</h3>
+
+                <div class="languages">
+                    <h3 class="notclicked">Languages</h3>
+
+                    <i class="fa-regular fa-bell bell"></i>
+                </div>
+
+                <div class="profile">
+                    <img src="./img/profile.webp" alt="">
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- main container  -->
+
+        <div class="heading-area">
+            <div class="heading">
+                <h1>Wander, Explore,</h1>
+                <h1> Discover</h1>
+            </div>
+
+            <div class="description">
+                <h3>Your Passport to Global Adventures.</h3>
+            </div>
+
+            <div class="start-search-btn">
+                <button>Start your search</button>
+            </div>
+        </div>
+
+
+        <div class="booking-section">
+
+            <div class="nav-booking">
+                <h3 class="active inactive">Stays</h3>
+                <h3 class=" inactive">Flights</h3>
+                <h3 class=" inactive">Cars</h3>
+                <h3 class=" inactive">Things to do</h3>
+            </div>
+
+
+
+            <div class="booking-selection-area">
+                <div class="location book-tar">
+                    <i class="fa-solid fa-location-arrow"></i>
+                    <div class="heading">
+                        <h2>Location</h2>
+                        <h4>Where are you goinng?</h4>
+                    </div>
+                </div>
+
+                <div class="checkin book-tar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <div class="heading">
+
+                        <h2>Check in</h2>
+                        <h4>Add date</h4>
+
+                    </div>
+                </div>
+
+                <div class="checkout book-tar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <div class="heading">
+
+                        <h2>Check out</h2>
+                        <h4>Add date</h4>
+
+                    </div>
+                </div>
+
+                <div class="travelers book-tar">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="heading">
+                        <h2>Travelers</h2>
+                        <h4>Add guests</h4>
+
+                    </div>
+                </div>
+
+                <div class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- adventure section-->
+        <div class="adventure-section">
+            <div class="adven-heading">
+                <h1>Let's go on an adventure</h1>
+                <p>Find and book great experience</p>
+            </div>
+
+            <div class="adven-card-container">
+                <div class="adven-card">
+                    <img src="./img/adven/mountain.png" alt="">
+                    <div class="adven-des">
+                        <p>Luxury resort at the sea</p>
+                        <span>1,345 PLACES</span>
+                    </div>
+                </div>
+                <div class="adven-card">
+                    <img src="./img/adven/mountain.png" alt="">
+                    <div class="adven-des">
+                        <p>Luxury resort at the sea</p>
+                        <span>2,245 PLACES</span>
+                    </div>
+                </div>
+                <div class="adven-card">
+                    <img src="./img/adven/mountain.png" alt="">
+                    <div class="adven-des">
+                        <p>Luxury resort at the sea</p>
+                        <span>345 PLACES</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--adven-location-card-section-->
+        
+        <div class="travel-location-cards">
+            <div class="travel-location-heading">
+                <h1>Go somewhere</h1>
+                <p style="color: #767d93;">Let's go on an adventure</p>
+            </div>
+
+            <div class="travel-card-container">
+                <div class="travel-card-nav">
+                    <div class="left-nav">
+                        <h1 class="noAdven selectAdven"><i class="fa-solid fa-dollar-sign "></i> Featured</h1>
+                        <h1 class="noAdven"><i class="fa-solid fa-dollar-sign "></i> Family-friendly</h1>
+                        <h1 class="noAdven"><i class="fa-solid fa-dollar-sign "></i> On sale</h1>
+                        <h1 class="noAdven"><i class="fa-solid fa-dollar-sign "></i> Sub nav</h1>
+                    </div>
+                    <div class="right-nav">
+                        <select name="" id="">
+                            <option value="">Recently added</option>
+                            <option value="">Top locations</option>
+                            <option value="">Popular northern locations</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="cards-container">
+
+                    <!--  card  1 -->
+                    <div class="travel-card">
+                        <div class="image-container">
+                            <img src="./img/cards-img/shikariDevi.jpg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <div class="title">
+                                <h4>Shikari Mata Temple</h4>
+                                <p>Mandi, Himachal Pradesh</p>
+                            </div>
+                            <div class="price">
+                                <h3 class="cut-price">&#8377; 7842</h3>
+                                <h3 class="sale-price">&#8377; 5012</h3>
+                            </div>
+                        </div>
+                        <div class="card-date">
+                            <div class="date">
+                                <h5>Tue, Jul 20 - Fir, Jul 23</h5>
+                            </div>
+                            <div class="rate">
+                                <h5><i class="fa-solid fa-star"></i> 4.9 </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+
+                    <div class="travel-card">
+                        <div class="image-container">
+                            <img src="./img/cards-img/Kamrunag.jpg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <div class="title">
+                                <h4>Kamrunag Nag Temple</h4>
+                                <p>Mandi, Himachal Pradesh</p>
+                            </div>
+                            <div class="price">
+                                <h3 class="cut-price">&#8377; 7842</h3>
+                                <h3 class="sale-price">&#8377; 5012</h3>
+                            </div>
+                        </div>
+                        <div class="card-date">
+                            <div class="date">
+                                <h5>Tue, Jul 20 - Fir, Jul 23</h5>
+                            </div>
+                            <div class="rate">
+                                <h5><i class="fa-solid fa-star"></i> 4.9 </h5>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- card 3  -->
+
+                    <div class="travel-card">
+                        <div class="image-container">
+                            <img src="./img/cards-img/ShetaDhar.jpg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <div class="title">
+                                <h4>Sheta Dhar</h4>
+                                <p>Mandi, Himachal Pradesh</p>
+                            </div>
+                            <div class="price">
+                                <h3 class="cut-price">&#8377; 7842</h3>
+                                <h3 class="sale-price">&#8377; 5012</h3>
+                            </div>
+                        </div>
+                        <div class="card-date">
+                            <div class="date">
+                                <h5>Tue, Jul 20 - Fir, Jul 23</h5>
+                            </div>
+                            <div class="rate">
+                                <h5><i class="fa-solid fa-star"></i> 4.9 </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 4  -->
+
+                    <div class="travel-card">
+                        <div class="image-container">
+                            <img src="./img/cards-img/parashar.jpg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <div class="title">
+                                <h4>Prashar Lake</h4>
+                                <p>Mandi, Himachal Pradesh</p>
+                            </div>
+                            <div class="price">
+                                <h3 class="cut-price">&#8377; 7842</h3>
+                                <h3 class="sale-price">&#8377; 5012</h3>
+                            </div>
+                        </div>
+                        <div class="card-date">
+                            <div class="date">
+                                <h5>Tue, Jul 20 - Fir, Jul 23</h5>
+                            </div>
+                            <div class="rate">
+                                <h5><i class="fa-solid fa-star"></i> 4.9 </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 5  -->
+
+                    <div class="travel-card">
+                        <div class="image-container">
+                            <img src="./img/cards-img/kedarnath.jpeg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <div class="title">
+                                <h4>Kedarnath</h4>
+                                <p>Uttrakhand</p>
+                            </div>
+                            <div class="price">
+                                <h3 class="cut-price">&#8377; 7842</h3>
+                                <h3 class="sale-price">&#8377; 5012</h3>
+                            </div>
+                        </div>
+                        <div class="card-date">
+                            <div class="date">
+                                <h5>Tue, Jul 20 - Fir, Jul 23</h5>
+                            </div>
+                            <div class="rate">
+                                <h5><i class="fa-solid fa-star"></i> 4.9 </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 6  -->
+
+                    <div class="travel-card">
+                        <div class="image-container">
+                            <img src="./img/cards-img/karerilake.jpg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <div class="title">
+                                <h4>Kareri Lake</h4>
+                                <p>Kangra</p>
+                            </div>
+                            <div class="price">
+                                <h3 class="cut-price">&#8377; 7842</h3>
+                                <h3 class="sale-price">&#8377; 5012</h3>
+                            </div>
+                        </div>
+                        <div class="card-date">
+                            <div class="date">
+                                <h5>Tue, Jul 20 - Fir, Jul 23</h5>
+                            </div>
+                            <div class="rate">
+                                <h5><i class="fa-solid fa-star"></i> 4.9 </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 7  -->
+
+                    <div class="travel-card">
+                        <div class="image-container">
+                            <img src="./img/cards-img/triund.jpg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <div class="title">
+                                <h4>Triund Trek</h4>
+                                <p>McLeod Ganj, Kangra</p>
+                            </div>
+                            <div class="price">
+                                <h3 class="cut-price">&#8377; 7842</h3>
+                                <h3 class="sale-price">&#8377; 5012</h3>
+                            </div>
+                        </div>
+                        <div class="card-date">
+                            <div class="date">
+                                <h5>Tue, Jul 20 - Fir, Jul 23</h5>
+                            </div>
+                            <div class="rate">
+                                <h5><i class="fa-solid fa-star"></i> 4.9 </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card *  -->
+
+                    <div class="travel-card">
+                        <div class="image-container">
+                            <img src="./img/cards-img/chail.webp" alt="">
+                        </div>
+                        <div class="card-title">
+                            <div class="title">
+                                <h4>Chail Hill Station</h4>
+                                <p>Solan, Himachal Pradesh</p>
+                            </div>
+                            <div class="price">
+                                <h3 class="cut-price">&#8377; 7842</h3>
+                                <h3 class="sale-price">&#8377; 5012</h3>
+                            </div>
+                        </div>
+                        <div class="card-date">
+                            <div class="date">
+                                <h5>Tue, Jul 20 - Fir, Jul 23</h5>
+                            </div>
+                            <div class="rate">
+                                <h5><i class="fa-solid fa-star"></i> 4.9 </h5>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- footer-section -->
+
+        <div class="footer-section">
+            <div class="footer-text-area">
+                <div class="footer-logo-area">
+                    <img src="./img/logo.png" alt="">
+                    <h3>travelGuru</h3>
+                </div>
+                <div class="footerCompany">
+                    <h2>Company</h2>
+                    <p>Blog</p>
+                    <p>Privacy Policy</p>
+                    <p>FAQ's</p>
+                    <p>Contact</p>
+                </div>
+                <div class="footerCompany">
+                    <h2>Contact Us</h2>
+                    <p>Chitkara University, Punjab</p>
+                    <p>****65435</p>
+                </div>
+                <div class="footerCompany">
+                    <h2>Quick Link</h2>
+                    <p>Help Text</p>
+                </div>
+                <div class="footerCompany">
+                    <h2>Social Share</h2>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="copyright-area">
+                <p>&copy; Copyright 2023</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
