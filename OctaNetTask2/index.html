@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Website Projects To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading"> <i class="fa-solid fa-list"></i> To Do List</h1>
+        <div class="task-form">
+            <div class="inputs">
+                <input type="text" id="task" placeholder="Add a new task..." />
+                <div class="input-down-section">
+                    <input type="date" id="deadline" placeholder="Set a deadline..." />
+                    <select id="priority">
+                        <option value="high">High Priority</option>
+                        <option value="medium">Medium Priority</option>
+                        <option value="low">Low Priority</option>
+                    </select>
+                </div>
+            </div>
+            <button onclick="addTask()" id="addtask"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="task-headings">
+            <h1> <i class="fa-solid fa-calendar-days"></i> Deadline</h1>
+            <h1> <i class="fa-solid fa-list-check"></i> Task</h1>
+            <h1> <i class="fa-solid fa-tag"></i> Priority</h1>
+            <h1> <i class="fa-solid fa-power-off"></i> Action</h1>
+        </div>
+        <div class="task-list">
+
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
